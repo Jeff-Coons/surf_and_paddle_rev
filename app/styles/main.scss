@@ -39,7 +39,7 @@ body {
 
 
 header {
-  @include background-image(linear-gradient(to top, rgba(17, 101, 163, .8) 1%, rgba(18, 101, 163, .8) 102%, #fff), url("/images/header.jpg"));
+  @include background-image(linear-gradient(to top, rgba(17, 101, 163, .8) 1%, rgba(18, 101, 163, .8) 102%, #fff), url("../images/header.jpg"));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -368,14 +368,14 @@ header {
   .ad-image {
     @include span-columns(10.25);
     @include shift(.75);
-    @include background-image(linear-gradient(to top, rgba(17, 101, 163, .4) 1%, rgba(18, 101, 163, .4) 102%, #fff), url("/images/cool.png"));
+    @include background-image(linear-gradient(to top, rgba(17, 101, 163, .4) 1%, rgba(18, 101, 163, .4) 102%, #fff), url("../images/cool.png"));
     background-size: 100%;
     background-position: center;
     height: rem(300);
     cursor: pointer;
 
     &:hover {
-      background-image: url("/images/cool.png");
+      background-image: url("../images/cool.png");
     }
   }
 
@@ -449,7 +449,7 @@ header {
     color: $secondary-color;
     display: inline-block;
     width: 25%;
-    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("/images/post1.jpg"));
+    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("../images/post1.jpg"));
 
     h4 {
       font-family: $secondary-font;
@@ -462,7 +462,7 @@ header {
   }
 
   .post1:hover {
-    background-image: url("/images/post1.jpg");
+    background-image: url("../images/post1.jpg");
     color: #fff;
   }
 
@@ -471,7 +471,7 @@ header {
     display: inline-block;
     width: 25%;
     margin-left: rem(-4);
-    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("/images/post2.jpg"));
+    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("../images/post2.jpg"));
 
     h4 {
       font-family: $secondary-font;
@@ -484,7 +484,7 @@ header {
   }
 
   .post2:hover {
-    background-image: url("/images/post2.jpg");
+    background-image: url("../images/post2.jpg");
     color: #fff;
   }
 
@@ -493,7 +493,7 @@ header {
     display: inline-block;
     width: 25%;
     margin-left: rem(-4);
-    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("/images/post3.jpg"));
+    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("../images/post3.jpg"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -509,7 +509,7 @@ header {
   }
 
   .post3:hover {
-    background-image: url("/images/post3.jpg");
+    background-image: url("../images/post3.jpg");
     color: #fff;
   }
 
@@ -518,7 +518,7 @@ header {
     display: inline-block;
     width: 25%;
     margin-left: rem(-4.5);
-    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("/images/post4.jpg"));
+    @include background-image(linear-gradient(to top, rgba(45, 97, 138, .7) 1%, rgba(46, 97, 138, .7) 102%, #fff), url("../images/post4.jpg"));
 
     h4 {
       font-family: $secondary-font;
@@ -531,7 +531,7 @@ header {
   }
 
   .post4:hover {
-    background-image: url("/images/post4.jpg");
+    background-image: url("../images/post4.jpg");
     color: #fff;
   }
 }
